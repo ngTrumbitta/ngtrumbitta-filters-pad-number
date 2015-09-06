@@ -13,6 +13,6 @@ describe('Filter: ngtrumbitta.filters.padnumber', function() {
     var my_number = 4;
     var expectedString = '04';
 
-    expect($filter('stringPadNumber')(my_number, padding_string, size)).toEqual(expectedString);
+    expect($filter('ngtrumbittaPadNumber')(my_number, padding_string, size)).toEqual(expectedString);
   });
 });

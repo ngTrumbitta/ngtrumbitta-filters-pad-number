@@ -1,5 +1,5 @@
 angular.module('ngtrumbitta.filters.padnumber', [])
-  .filter('ngTrumbittaPadNumber', function() {
+  .filter('ngtrumbittaPadNumber', function() {
     'use strict';
     var repeat = function(s, n) {
       var a = [];
